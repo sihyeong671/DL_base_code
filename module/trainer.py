@@ -16,7 +16,7 @@ from torch.utils.data import DataLoader
 from module.datasets import get_dataset
 from module.models import get_model
 from module.utils import Config, seed_everything
-from module.log import get_logger
+from module.logs import get_logger
 
 class Trainer:
     def __init__(self, config: Config):
